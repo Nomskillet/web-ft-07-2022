@@ -1,0 +1,101 @@
+# # Tip calculator
+
+# good = 0.2
+# fair = 0.15
+# bad = 0.1
+
+
+# print("Total bill amount?>>")
+
+# amount = float(input("Bill amount>>"))
+
+# # split = int(input("Split how many ways?"))
+
+# service = (input("Level of service? Good, Fair, or Bad>>"))
+   
+# if service == ("Good"):
+#     tip = amount * good
+# elif service == ("Fair"):
+#      tip = amount * fair
+# else:
+#      tip = amount * bad
+
+# total = tip + amount
+
+# print(f"tip is %.2f" % tip)
+# print(f"your total bill is %.2f" % total)
+
+
+# #tip calculator 2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#coins 
+
+coins = 0
+
+print("You have 0 coins.")
+
+answer = input("Do you want another?")
+    
+while answer == "yes":
+     coins +=1
+     print(f"you have {coins} coins")
+     answer = input("do you want another?")
+
+else:
+     print("bye")
+
+
+
+
+# box
+
+width = input("width? ")
+width = int(width)
+
+height = input("height? ")
+height = int(height)
+
+print("*"*width)
+
+while (height-2 > 0):
+    print("*" + " " * (width-2) + "*")
+    height -=1
+    
+print("*"*width)
+
+
+
+
+
+# Triangle
+
+# print("""
+#    *
+#   ***
+#  *****
+# *******
+# """)
+
+triangle_rows = int(input("amount of rows in triangle?"))
+for star in range(1, triangle_rows + 1):
+    amount_space = triangle_rows - star
+    amount_star = 2 * star - 1
+    print((" " * amount_space)+ ("*" * amount_star))
