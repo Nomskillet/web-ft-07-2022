@@ -3,13 +3,6 @@
 
 #2. Create a program that will print from 10-1 using a while loop.
 
-count = 10
-while count <=10: 
-    print(count)
-    count += 1
-    
-print('next line')
-
 #3. Create a program that prompts the user to enter a word.  The program doesn't stop asking the user to enter a word until the user enters the word "stop"
 
 #4a. Create a program that has a variable named username and another variabled named password with values of your choice.

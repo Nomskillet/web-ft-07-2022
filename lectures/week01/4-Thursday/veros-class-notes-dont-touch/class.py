@@ -1,5 +1,4 @@
 
-
 # day1 = "Sunday"
 # day2 = "Monday"
 # day3 = "Tuesday"
@@ -206,20 +205,79 @@ todos = ["pet the cat", "go to work", "shop for groceries",
 
 #[[],[],[],[]]
 
-# a = [ [2, 4, 6, 8 ],  
-#     [ 1, 3, 5, 7 ],  
-#     [ 8, 6, 4, 2 ],  
-#     [ 7, 5, 3, 1 ] ] 
+a = [ [2, 4, 6, 8 ],  
+    [ 1, 3, 5,  ],  
+    [ 8, 6, 4, 2 ],  
+    [ 7, 5, ] ] 
 
 
-# outer_index = 0   
+# a[1][1]
+# outer_index = 0 
+# inner_index = 0  
 
 # while outer_index < len(a): # 0: [2, 4, 6, 8]
 #                             #             |
-#     print(a[outer_index])
+#     # print(a[outer_index])
+    
+#     while inner_index < len(a[outer_index]):
+#         print(a[outer_index][inner_index])
+#         inner_index +=1
+        
+#     inner_index = 0
 #     outer_index +=1
 
 
+# [[0, 1, 2], [0, 1, 2], [0, 1, 2]]
+#   i
+
+# [[], [], []]
+#      o
+
+#[]
+
+# outer_index = 0
+# inner_index = 0
+
+# big_list = [] 
+
+# while outer_index < 3: # 3
+    
+#     temp_lst = [] # []
+#     while inner_index < 3: # 0 ,1 ,2 
+#         temp_lst.append(inner_index) # [0, 1, 2]
+#         inner_index+=1
+        
+#     big_list.append(temp_lst) # [[0,1,2], [0,1,2]]
+#     inner_index = 0
+#     outer_index+=1
+    
+# print(big_list)
+# blst = []
+
+# blst.append([0,1,2])   
+
+# print(lst)     
+    
+    
+    
+
+
+
+
+
+
+    
+        
+
+
+
+# lst = [0,1,2]
+# i = 0
+# nlst = []
+# while i < 3:
+#     nlst.append(lst)
+#     i+=1
+    
 
 # min = 1 
 # sec = 1 
@@ -233,7 +291,130 @@ todos = ["pet the cat", "go to work", "shop for groceries",
 #     sec = 1
 #     min+=1
 
+    
 
+
+# my_str = "hello"
+# #          |
+
+# print(my_str[3:])
+
+
+# alphabet = "abcdefghijklmnopqrstuvwxyz"
+
+# print(alphabet[-1])
+
+# char_index = 0 
+
+# # while char_index < len(alphabet): 
+# #     print(alphabet[char_index])
+# #     char_index+=1 
+
+
+# rev = alphabet[::-1]
+
+# print(rev)
+
+# alphabet = "abcdefghijklmnopqrstuvwxyz"
+# char_index = 0
+# rev_alph = ''
+# while char_index < len(alphabet): 
+    
+#     rev_alph = alphabet[char_index] + rev_alph # "dcba"
+#     char_index+=1 
+    
+# print(rev_alph)
+
+# greeting = "hello"  # str  ['h', 'e', 'l', 'l', 'o']
+
+# greeting_list = list(greeting)
+
+# greeting_list[0] = "9"
+
+# print(greeting_list)
+# greeting = "".join(greeting_list)
+
+# print(greeting)
+
+# print(greeting)
+# greeting[0] = 9
+
+
+# word = "mountain"
+# arr = "1, 2, 3"
+# word_lst = ["hello", "there", "world"]
+
+# word_lst.extend(arr)
+
+# print(word_lst)
+
+# reverse number  -1234
+
+# -4321
+
+# nums = [1, 2, 3, 4]
+
+# nums.reverse()
+
+# print(nums)
+
+# rev_nums = "".join(nums)
+
+
+# reverse number  -1234
+
+# -4321
+
+
+# num = 1234 
+
+# sign = 1 
+
+# if (num < 0):
+#     sign = -1
+
+# num_str = str(abs(num))  # "1234"
+# rev_num_str = "" 
+# index = 0
+
+# while index < len(num_str):  
+#     rev_num_str = num_str[index] + rev_num_str 
+#     index+=1 
+    
+# num = int(rev_num_str) * sign
+# print(num)
+
+# rng = list(range(6, 17, 2))  # [3, 6, 9, 12, ]
+
+# print(rng)
+
+# lists, ranges, strings
+
+# range
+# [3, 5, 7, 9]
+#  |   |
+for x in range(3,11, 2): 
+    
+    print(x)
+ 
+ 
+# list   
+nums = [99, 45, 23, 12, 11]
+
+for n in nums:
+    print(n) 
+    
+
+# strings 
+
+name = "Ryan"
+
+for char in name:
+    print(char) 
+    
+    
+    
+    
     
 
 
