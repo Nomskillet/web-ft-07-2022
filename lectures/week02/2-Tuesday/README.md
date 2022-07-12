@@ -24,14 +24,14 @@ After completing this lesson, you will be able to:
 - Lecture on Dictionaries (afternoon)
 
 ## 🟡 Lecture Presentations
-<!-- - [Dictionaries](https://dc-exxon-slides.netlify.app/python/dictionaries#1) -->
-<!-- - [File IO](https://dc-houston.herokuapp.com/p2/Python/FileInputOutpu.html#1) -->
+- [Dictionaries](https://dc-exxon-slides.netlify.app/python/dictionaries#1)
+[File IO](https://dc-houston.herokuapp.com/p2/Python/FileInputOutpu.html#1)
 
-<!-- ## 🟣Labs 
-- [in class labs](./labs) -->
+## 🟣Labs 
+- [in class labs](https://github.com/veros-labs/lab-python-dictionaries)
 
-<!-- ## 🟠Homework 
-- [phonebook](https://digitalcrafts.instructure.com/courses/189/assignments/4598?module_item_id=23077) -->
+## 🟠Homework 
+- [phonebook](https://digitalcrafts.instructure.com/courses/189/assignments/4598?module_item_id=23077)
 
 ## 🔵Helpful Videos
 - [PYTHON DICTIONARIES & FOR LOOPS ](https://www.youtube.com/watch?v=IpbYrguvai0)
