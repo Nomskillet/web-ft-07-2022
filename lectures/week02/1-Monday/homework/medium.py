@@ -9,6 +9,8 @@ nL3 = []
 
 for i in range(0, len(nL1)): 
     nL3.append(nL1[i] * nL2[i])
+    
+    print(nL3)
 
 # 2. Matrix Addition
 # Given two two-dimensional lists of numbers of the size 2x2 two dimensional list is represented as an list of lists:
