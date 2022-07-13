@@ -1,43 +1,84 @@
 
 
 
-#? 1. Create a dictionary called zodiac with the following information.
-#? Each key is the name of the zodiac
+# #? 1. Create a dictionary called zodiac with the following information.
+# #? Each key is the name of the zodiac
 
-# Aries - The Warrior``
-# Taurus - The Builder
-# Gemini - The Messenger
-# Cancer - The Mother
-# Leo - The King
-# Virgo -The Analyst
-# Libra - The Judge
-# Scorpio - The Magician
-# Sagittarius - the Gypsy
-# Capricorn - the Father
-# Aquarius - The Thinker
-# Pisces - TheMystic
+# # Aries - The Warrior``
+# # Taurus - The Builder
+# # Gemini - The Messenger
+# # Cancer - The Mother
+# # Leo - The King
+# # Virgo -The Analyst
+# # Libra - The Judge
+# # Scorpio - The Magician
+# # Sagittarius - the Gypsy
+# # Capricorn - the Father
+# # Aquarius - The Thinker
+# # Pisces - TheMystic
 
-zodiac = {
+# zodiac = { "Aries": "The Warrior`",
+# "Taurus" : "The Builder"
+# "Gemini" : "The Messenger
+# "Cancer - The Mother
+# "Leo - The King
+# "Virgo -The Analyst
+# "Libra - The Judge
+# "Scorpio - The Magician
+# "Sagittarius - the Gypsy
+# "Capricorn - the Father
+# "Aquarius : The Thinker
+# "Pisces : TheMystic
+          
+          
     
-}
+# # }
 
-#? 1a. Retrieve information about your zodiac from the zodiac dictionary
+# # print(zodiac[A])
 
-#? 2. Given the following dictionary
-
-phonebook_dict = {
-    'Alice': '703-493-1834',
-    'Bob': '857-384-1234',
-    'Elizabeth': '484-584-2923'
-}
+# #? 1a. Retrieve information about your zodiac from the zodiac dictionary
 
 
-# 2a. Print Elizabeth's phone number
-# 2b. Add a entry to the dictionary: Kareem's number is 938-489-1234.
-# 2c. Delete Alice's phone entry.
-# 2d. Change Bob's phone number to '968-345-2345'.
-# 2e. Print all the phone entries.
 
+
+# #? 2. Given the following dictionary
+
+# phonebook_dict = {
+#     'Alice': '703-493-1834',
+#     'Bob': '857-384-1234',
+#     'Elizabeth': '484-584-2923'
+# }
+
+
+# # 2a. Print Elizabeth's phone number
+
+
+# print(phonebook_dict["Elizabeth"])
+
+# # 2b. Add a entry to the dictionary: Kareem's number is 938-489-1234.
+
+# phonebook_dict["Kareem"] = "938-489-1234"
+
+# print(phonebook_dict)
+
+# # 2c. Delete Alice's phone entry.
+
+# del phonebook_dict['Alice']
+
+# print(phonebook_dict)
+
+
+# # 2d. Change Bob's phone number to '968-345-2345'.
+
+# phonebook_dict ["Bob"] = "968-345-2345"
+
+# print(phonebook_dict)
+
+
+# # 2e. Print all the phone entries.
+
+# for i in phonebook_dict.keys():
+#     print(f"{i} : {phonebook_dict[i]}")
 
 #? 3. Nested dictionaries
 
@@ -59,10 +100,20 @@ ramit = {
     ]
 }
 # 3a. Write a python expression that gets the email address of Ramit.
+
+print(ramit['email'])
+
 # 3b. Write a python expression that gets the first of Ramit's interests.
+
+print(ramit['interests' ][0])
+
 # 3c. Write a python expression that gets the email address of Jasmine.
+
+print(ramit['friends'][0]['email'])
+
 # 3d. Write a python expression that gets the second of Jan's two interests.
 
+print(ramit['friends'][1]['interests'][1])
 
 #? 4. Letter Summary
 #? Write a letter_histogram function that takes a word as its input,
