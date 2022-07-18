@@ -17,21 +17,22 @@ After completing this lesson, you will be able to:
 ## 📍Agenda
 
 
-<!-- ## 🟡 Lecture Presentations
+## 🟡 Lecture Presentations
 - [Objects Oriented Programming](https://dc-exxon-slides.netlify.app/python/objects102#1)
-- [Error & Debugging](https://dc-houston.herokuapp.com/p2/Python/Debugging.html) -->
+- [Error & Debugging](https://dc-houston.herokuapp.com/p2/Python/Debugging.html)
 
-<!-- ## 🟣Labs  -->
+## 🟣Labs 
 
-<!-- ## 🟠Homework
+[labs](https://github.com/veros-labs/lab-python-oop)
+
+## 🟠Homework
  
--[RPG Game Part 1 & Part 2](https://digitalcrafts.instructure.com/courses/189/assignments/4623?module_item_id=23103) -->
+-[RPG Game Part 1 & Part 2](https://github.com/vlino2015/rpg_game)
 
 <!-- ### Instructions 
 - navigate to your digital crafts folder (outside of your python folder)
 - run the following command in your terminal window
     - git clone https://github.com/vlino2015/rpg_game.git -->
-
 
 
 ## 🔵Helpful Videos
