@@ -1,0 +1,43 @@
+body{
+    margin: 0px;
+    background-color: grey;
+}
+
+.head{
+    display: inline-block;
+    flex-direction: row;
+    background-color: aliceblue;
+    margin-top: 0px;
+    width: 100px;
+    height: 100px;
+}
+
+
+
+.div1{
+    display: block;
+    flex-direction: column;
+    background-color: aqua;
+
+
+}
+
+
+
+.div2{
+
+    flex-direction: column;
+    background-color: blueviolet;
+    
+}
+
+
+
+.footer{
+
+    flex-direction: row;
+    background-color: coral;
+    display: inline-block;
+    margin-bottom: 0px;
+    
+}
