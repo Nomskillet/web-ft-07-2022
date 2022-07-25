@@ -60,13 +60,28 @@ white = #FFFFFF */
 
 .ps-light{
     background-color: white;
-    height: 550px;
+    /* height: 550px; */
     width: 100%
 }
 
 
 .ps-gray{
     background-color: #E5E5E5;
-    height: 550px;
+    /* height: 550px; */
     width: 100%
+}
+
+.parallax{
+
+    background-image: url("https://www.sunnysidecircus.com/wp-content/uploads/2019/03/Banh_Mi_Sandwich_fullwidth.jpg");
+
+    min-height: 700px; 
+
+    /* create parallax scrolling effect */
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
