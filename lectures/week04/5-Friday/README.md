@@ -3,7 +3,7 @@
 ### Blackjack Game
 
 *You will have all day Monday to work on this assignment, but get started on it as soon as possible*
-- [blackjack game](https://github.com/DigitalCraftsStudents/blackjack-exercise)
+- [blackjack game](https://github.com/vlino2015/blackjack2021)
 
 
 ## Algo Fri-Yay!
