@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<ul>
+
+
+</ul>
+
+
+<script>
+
+    fetch('https://random-data-api.com/api/color/random_color?size=25')
+    .then(result=>result.json())
+    .then(data=>{
+        console.log(data)
+
+        let liTags = "";
+        for (let i = 0; i < data.length; i++){
+
+            let tempTag = `<li>${data[i].hex_value}</li>`
+
+            liTags +=tempTag
+        }
+
+        let ul = document.querySelector('ul')
+
+        ul.innerHTML = liTags
+    })
+
+
+
+</script>
+
+</body>
+</html>
+
+
+
+<body>
+
+    <div></div>
+
+    <script>
+
+        fetch('https://api.openweathermap.org/data/2.5/weather?q=Chandler&appid=e67df4bbb11a8a4f0a25d01f564b8b44')
+        .then((results)=>results.json())
+        .then(data=>{
+
+            console.log(data)
+            console.log(data.main.temp)
+
+            let kelvin = data.main.temp
+
+            let degC = kelvin - 273.15;
+
+            let degF = Math.floor((degC * 1.8) + 32)
+            console.log(degF)
+            
+            //grab the div out of the DOM
+            let div = document.querySelector('div')
+
+            div.innerHTML = `<h1>Current Temp ${degF}</h1>`
+        })
+    </script>
+
+
+</body>
