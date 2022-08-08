@@ -31,20 +31,9 @@ https://anapioficeandfire.com/
 
 Some ideas:
 
-
-- make the name of the house clickable; when you click on it, print the house information either to the console or to the page
 - grab a list of all of the characters, and print out their name and what house they belong to
+- make the name of the house clickable; when you click on it, print the house information either to the console or to the page
 
 
-- house name
-    - characters 
-    - characters 
-    - characters
-- house name
-    - characters
-    - characters
-    - characters
-- house name
-    - characters
-- ...
-    - characters
+
+

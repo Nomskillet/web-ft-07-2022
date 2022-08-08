@@ -1,0 +1,105 @@
+
+
+.font{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #FFF190;
+    text-shadow: 1px 1px 0 #000,
+    -1px 1px 0 #000,
+    1px -1px 0 #000,
+    -1px -1px 0 #000,
+    0px 1px 0 #000,
+    0px -1px 0 #000,
+    -1px 0px 0 #000,
+    1px 0px 0 #000,
+    2px 2px 0 #000,
+    -2px 2px 0 #000,
+    2px -2px 0 #000,
+    -2px -2px 0 #000,
+    0px 2px 0 #000,
+    0px -2px 0 #000,
+    -2px 0px 0 #000,
+    2px 0px 0 #000,
+    1px 2px 0 #000,
+    -1px 2px 0 #000,
+    1px -2px 0 #000,
+    -1px -2px 0 #000,
+    2px 1px 0 #000,
+    -2px 1px 0 #000,
+    2px -1px 0 #000,
+    -2px -1px 0 #000;
+    
+    
+    border-color: black;
+}
+
+
+.banner{
+    background-image: url(https://cdn.europosters.eu/image/750/posters/game-of-thrones-house-sigils-i23763.jpg);
+    background-size: 35%;
+}
+
+
+body{
+    background-image: url(https://wallpaperaccess.com/full/25497.jpg);
+    background-size: cover ;
+    background-attachment: fixed;
+    width: 100%;
+    
+}
+
+div{
+    
+    color: #FFF190;
+    padding: 1%;
+    text-shadow: 1px 1px 0 #000,
+    -1px 1px 0 #000,
+    1px -1px 0 #000,
+    -1px -1px 0 #000,
+    0px 1px 0 #000,
+    0px -1px 0 #000,
+    -1px 0px 0 #000,
+    1px 0px 0 #000,
+    2px 2px 0 #000,
+    -2px 2px 0 #000,
+    2px -2px 0 #000,
+    -2px -2px 0 #000,
+    0px 2px 0 #000,
+    0px -2px 0 #000,
+    -2px 0px 0 #000,
+    2px 0px 0 #000,
+    1px 2px 0 #000,
+    -1px 2px 0 #000,
+    1px -2px 0 #000,
+    -1px -2px 0 #000,
+    2px 1px 0 #000,
+    -2px 1px 0 #000,
+    2px -1px 0 #000,
+    -2px -1px 0 #000;
+}
+
+.listContainer{
+    color: #FFF190;
+    
+}
+
+a:link {
+    color: #FFF190;
+}
+
+
+a:visited {
+    color: #FFF190;
+}
+  
+
+a:hover {
+    color: #FFF190;
+}
+  
+ 
+a:active {
+    color: #FFF190;
+}
+
+
+ 
