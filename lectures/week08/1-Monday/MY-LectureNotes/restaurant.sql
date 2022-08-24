@@ -1,6 +1,6 @@
 
 
--- CREATE TABLE restaurant2 (
+-- CREATE TABLE restaurant (
 
 --     id SERIAL NOT NULL PRIMARY KEY,
 --     distance integer,
