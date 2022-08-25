@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <ul></ul>
+
+    <% menu.forEach(item => { %>
+        
+        <img src="<%= item.imageurl %> " height="300px" alt="">
+
+    <h5><%= item.name %> </h5>
+    <p><%= item.fooddescription %> </p>
+    <h5><%= item.price %> </h5>
+
+    <% }) %>
+ 
+
+
+</body>
+</html>
