@@ -28,7 +28,8 @@ After completing this lesson, you will be able to:
 
 - [auth lab](https://github.com/veros-labs/lab-squelize-auth)
 
-<!-- ## 🟠Homework  -->
+## 🟠Homework 
+- [blog with authentication](https://github.com/veros-labs/lab-sequelize-auth-blog)
 
 <!-- ## 🔵Helpful Videos
 
