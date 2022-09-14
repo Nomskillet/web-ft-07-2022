@@ -1,0 +1,25 @@
+
+body{
+  margin: 0px;
+}
+div{
+  background-color: tomato;
+  font-size: 20px;
+  color: wheat;
+
+}
+
+h1{
+  margin-top:0px;
+}
+
+.div1{
+  background-color: purple;
+  font-size: 20px;
+  color: wheat;
+}
+
+#h1a{
+
+  background-color: pink;
+}
