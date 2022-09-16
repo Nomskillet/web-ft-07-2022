@@ -6,11 +6,11 @@ import Fireworks from './components/functional/Fireworks'
 import News from './components/functional/News' //class based component
 
 
-
-
 const App = () => {
   return (
     <>
+
+    <select name=""  id=""></select>
       <News />
       {/* <Fireworks /> */}
       {/* <CounterC /> */}

@@ -28,6 +28,8 @@ After completing this lesson, you will be able to:
 - [react-patterns](https://github.com/veros-labs/lab-react-patterns)
 - [react-state-drills](https://github.com/veros-labs/lab-react-state-drills)
 
+- [stop watch](https://github.com/veros-labs/lab-react-stopwatch.git)
+
 ## 🟠Homework 
 
 - [api drills](https://github.com/veros-labs/lab-react-api-drills) 
