@@ -17,15 +17,15 @@ After completing this lesson, you will be able to:
 ## 📍Agenda
 
 ## 🟡 Lecture Presentations
-<!-- - [Lifting State](http://dc-houston.herokuapp.com/p2/React/LiftingStateUp.html#1)
+- [Lifting State](http://dc-houston.herokuapp.com/p2/React/LiftingStateUp.html#1)
 - [Arrow Functions](http://dc-houston.herokuapp.com/p2/React/ArrowFunctionReturnRules.html#1)
-- [Project Management App](https://dc-houston.herokuapp.com/p2/React/ProjectManagementApp.html#1) -->
+- [Project Management App](https://dc-houston.herokuapp.com/p2/React/ProjectManagementApp.html#1)
 <!-- - [Component Lifecycle](https://dc-houston.herokuapp.com/p2/React/ComponentLifecycle.html#1) -->
 
 <!-- ## 🟣Labs  -->
 
-<!-- ## 🟠Homework 
-- [Contact App](https://github.com/veros-labs/hw-react-contact-app-lifting-state) -->
+## 🟠Homework 
+- [Contact App](https://github.com/veros-labs/hw-react-contact-app-lifting-state)
 
 ## 🔵Helpful Videos
 - [Passing Data from Child to Parent](https://www.youtube.com/watch?v=X6u--Oo7g88)
